@@ -9,7 +9,7 @@ df = pd.DataFrame.from_dict({
 
 x = df[['x']]
 y = df.y
-
+ 
 rdg = Ridge(alpha = 0.1)
 rdg.fit(x, y)
 
